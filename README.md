@@ -1,7 +1,10 @@
-# med_network_analysis
+## graph analytics
 
-Medical Network Analysis
- 
+### Medical Network Analysis
+
+    Analysis of a network, which has bibliographic tags (topics) as its nodes, connected with edges, which
+    represent the number of times the tags co-occure across a bibliographic index. Thus, through this analysis
+    we are able to identify topic relatedness, using bibliographic knowledge as reference.
  
 Techniques followed
 
@@ -44,8 +47,8 @@ Data set
     two terms, we may conclude that the terms are not related or it has not been published yet any article on their 
     connection or we may be able to identify that they may somehow be related by identifying a path that connects them 
     in the terms' graph or by another way using the data. From the co-occurance data set, a graph will be constructed
-    with nodes representing the MeSH terms and edges bearing the count of times two terms appear together in the citation
-    index.
+    with nodes, representing the MeSH terms and edges, bearing the count of times two terms appear together in the 
+    citation index.
 	
     
 
@@ -76,10 +79,10 @@ Evaluation
 
 Performance Metrics
 
-    In this use case, it is not evaluated the performance of the approach followed in detecting relatedness between topics in  
+    In this use case, it is not evaluated the performance of the approach followed, in detecting relatedness between topics in  
     the form of tags from the literature. There are many ways to further refine this approach and build an antagonizing
     commercial product or a research instrument. Though, it highlights the potential of large scale analytical frameworks and
-    analytical algorithms, in identifying structural characteristics in raw data and taking advantage of them to extract insight.  
+    analytical algorithms, in identifying structural characteristics in raw data and taking advantage of it to extract insight.  
 
 	
  
