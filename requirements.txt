@@ -1,0 +1,7 @@
+#python packages required
+numpy
+pandas
+sklearn
+mlflow
+hyperopt
+matplotlib.pyplot
